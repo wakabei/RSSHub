@@ -18,8 +18,8 @@ importers:
         specifier: 4.1.1
         version: 4.1.1
       '@hono/node-server':
-        specifier: 1.13.5
-        version: 1.13.5(hono@4.6.9)
+        specifier: 1.13.6
+        version: 1.13.6(hono@4.6.9)
       '@hono/zod-openapi':
         specifier: 0.17.0
         version: 0.17.0(hono@4.6.9)(zod@3.23.8)
@@ -246,8 +246,8 @@ importers:
         specifier: 4.19.2
         version: 4.19.2
       twitter-api-v2:
-        specifier: 1.18.1
-        version: 1.18.1
+        specifier: 1.18.2
+        version: 1.18.2
       ufo:
         specifier: 1.5.4
         version: 1.5.4
@@ -255,8 +255,8 @@ importers:
         specifier: 6.20.1
         version: 6.20.1
       uuid:
-        specifier: 11.0.2
-        version: 11.0.2
+        specifier: 11.0.3
+        version: 11.0.3
       winston:
         specifier: 3.16.0
         version: 3.16.0
@@ -433,8 +433,8 @@ importers:
         specifier: 11.0.5
         version: 11.0.5
       vite-tsconfig-paths:
-        specifier: 5.1.0
-        version: 5.1.0(typescript@5.6.3)(vite@5.4.10(@types/node@22.9.0))
+        specifier: 5.1.2
+        version: 5.1.2(typescript@5.6.3)(vite@5.4.10(@types/node@22.9.0))
       vitest:
         specifier: 2.0.5
         version: 2.0.5(@types/node@22.9.0)(jsdom@25.0.1(bufferutil@4.0.8)(utf-8-validate@5.0.10))
@@ -1348,8 +1348,8 @@ packages:
     resolution: {integrity: sha512-CXtq5nR4Su+2I47WPOlWud98Y5Lv8Kyxp2ukhgFx/eW6Blm18VXJO5WuQylPugRo8nbluoi6GvvxBLqHcvqUUw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@hono/node-server@1.13.5':
-    resolution: {integrity: sha512-lSo+CFlLqAFB4fX7ePqI9nauEn64wOfJHAfc9duYFTvAG3o416pC0nTGeNjuLHchLedH+XyWda5v79CVx1PIjg==}
+  '@hono/node-server@1.13.6':
+    resolution: {integrity: sha512-Y2ivw4UmLIBKfzvkFgcsrhc0GLn272diGjlnKOF9T1OiY6ud4RaVO8FKEnifNkuU7meOeCU371/8fmhgeYf7Lw==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: ^4
@@ -5460,8 +5460,8 @@ packages:
   tweetnacl@0.14.5:
     resolution: {integrity: sha512-KXXFFdAbFXY4geFIwoyNK+f5Z1b7swfXABfL7HXCmoIWMKU3dmS26672A4EeQtDzLKy7SXmfBu51JolvEKwtGA==}
 
-  twitter-api-v2@1.18.1:
-    resolution: {integrity: sha512-6pChAlfH/7VakKnPfVdG2fjxVJJgKCXvvWhuEOCdJ52Y+rzmAmsnTKDgjhnj11XgboSYQx1bn3j2VWyR+vnRiA==}
+  twitter-api-v2@1.18.2:
+    resolution: {integrity: sha512-ggImmoAeVgETYqrWeZy+nWnDpwgTP+IvFEc03Pitt1HcgMX+Yw17rP38Fb5FFTinuyNvS07EPtAfZ184uIyB0A==}
 
   type-check@0.3.2:
     resolution: {integrity: sha512-ZCmOJdvOWDBYJlzAoFkC+Q0+bUyEOS1ltgp1MGU03fqHG+dbi9tBFU2Rd9QKiDZFAYrhPh2JUf7rZRIuHRKtOg==}
@@ -5601,8 +5601,8 @@ packages:
     resolution: {integrity: sha512-6Z7Ma2aVEWisaL6TvBCy7P8rm2LQoPv6dJ7ecIaIixHcwfbJ0x7mWdbcwlIM5IGQxPZSFYeqRCqlOOeKoJYMkw==}
     engines: {node: '>= 4'}
 
-  uuid@11.0.2:
-    resolution: {integrity: sha512-14FfcOJmqdjbBPdDjFQyk/SdT4NySW4eM0zcG+HqbHP5jzuH56xO3J1DGhgs/cEMCfwYi3HQI1gnTO62iaG+tQ==}
+  uuid@11.0.3:
+    resolution: {integrity: sha512-d0z310fCWv5dJwnX1Y/MncBAqGMKEzlBb1AOf7z9K8ALnd0utBX/msg/fA0+sbyN1ihbMsLhrBlnl1ak7Wa0rg==}
     hasBin: true
 
   uuid@3.4.0:
@@ -5639,8 +5639,8 @@ packages:
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
 
-  vite-tsconfig-paths@5.1.0:
-    resolution: {integrity: sha512-Y1PLGHCJfAq1Zf4YIGEsmuU/NCX1epoZx9zwSr32Gjn3aalwQHRKr5aUmbo6r0JHeHkqmWpmDg7WOynhYXw1og==}
+  vite-tsconfig-paths@5.1.2:
+    resolution: {integrity: sha512-gEIbKfJzSEv0yR3XS2QEocKetONoWkbROj6hGx0FHM18qKUojhvcokQsxQx5nMkelZq2n37zbSGCJn+FSODSjA==}
     peerDependencies:
       vite: '*'
     peerDependenciesMeta:
@@ -6871,7 +6871,7 @@ snapshots:
     dependencies:
       levn: 0.4.1
 
-  '@hono/node-server@1.13.5(hono@4.6.9)':
+  '@hono/node-server@1.13.6(hono@4.6.9)':
     dependencies:
       hono: 4.6.9
 
@@ -11480,7 +11480,7 @@ snapshots:
 
   tweetnacl@0.14.5: {}
 
-  twitter-api-v2@1.18.1: {}
+  twitter-api-v2@1.18.2: {}
 
   type-check@0.3.2:
     dependencies:
@@ -11593,7 +11593,7 @@ snapshots:
 
   utility-types@3.11.0: {}
 
-  uuid@11.0.2: {}
+  uuid@11.0.3: {}
 
   uuid@3.4.0: {}
 
@@ -11642,7 +11642,7 @@ snapshots:
       - supports-color
       - terser
 
-  vite-tsconfig-paths@5.1.0(typescript@5.6.3)(vite@5.4.10(@types/node@22.9.0)):
+  vite-tsconfig-paths@5.1.2(typescript@5.6.3)(vite@5.4.10(@types/node@22.9.0)):
     dependencies:
       debug: 4.3.7
       globrex: 0.1.2
